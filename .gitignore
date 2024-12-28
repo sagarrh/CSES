@@ -3,4 +3,5 @@
 *.obj
 *.exe
 *.out
+*.vscode
 *.app

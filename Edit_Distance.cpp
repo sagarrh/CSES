@@ -22,8 +22,8 @@ int main(){
     // }
     // cout<<thisone[sizeof(a/4)][sizeof(b/4)];
 
-    for(int i=0;i<a.size();i++) thisone[i][0]=i;
-    for(int j=0;j<b.size();j++) thisone[0][j]=j;
+    for(int i=0;i<=a.size();i++) thisone[i][0]=i;
+    for(int j=0;j<=b.size();j++) thisone[0][j]=j;
 
     for(int i=1;i<=a.size();i++){
         for(int j=1;j<=b.size();j++){
@@ -36,9 +36,9 @@ int main(){
     }
     for(int i=0;i<=a.size();i++){
         for(int j=0;j<=b.size();j++){
-           cout<<thisone[i][j]<<",";
+           
         }
-        cout<<endl;
+      
     }
 
     cout<<thisone[a.size()][b.size()]<<endl;

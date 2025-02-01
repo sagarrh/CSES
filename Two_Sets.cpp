@@ -17,7 +17,6 @@ int main(){
         vector<bool> b(a,false);
         // cout<<final<<"i dont knowww"<<endl;
         for(long long i=a;i>0;i--){
-    
             if(final>=i){
                 // cout<<i<<"i dont knowww"<<endl;
                 final-=i;

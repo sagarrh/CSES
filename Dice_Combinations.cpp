@@ -12,6 +12,7 @@ int main(){
         for(int j=1;j<=6;j++){
             if(i-j>=0) a1[i]=(a1[i]+a1[i-j])%MOD;
         }
+        cout<<a1[i]<<" ";
     }
      cout<<a1[a];
 
